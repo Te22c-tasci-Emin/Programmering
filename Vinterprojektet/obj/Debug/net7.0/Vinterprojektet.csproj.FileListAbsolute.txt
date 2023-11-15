@@ -1,0 +1,14 @@
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\obj\Debug\net7.0\Vinterprojektet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\obj\Debug\net7.0\Vinterprojektet.AssemblyInfoInputs.cache
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\obj\Debug\net7.0\Vinterprojektet.AssemblyInfo.cs
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\obj\Debug\net7.0\Vinterprojektet.csproj.CoreCompileInputs.cache
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\bin\Debug\net7.0\Vinterprojektet.exe
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\bin\Debug\net7.0\Vinterprojektet.deps.json
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\bin\Debug\net7.0\Vinterprojektet.runtimeconfig.json
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\bin\Debug\net7.0\Vinterprojektet.dll
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\bin\Debug\net7.0\Vinterprojektet.pdb
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\obj\Debug\net7.0\Vinterprojektet.dll
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\obj\Debug\net7.0\refint\Vinterprojektet.dll
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\obj\Debug\net7.0\Vinterprojektet.pdb
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\obj\Debug\net7.0\Vinterprojektet.genruntimeconfig.cache
+C:\Users\emin.tasci\Documents\Programmering\Vinterprojektet\obj\Debug\net7.0\ref\Vinterprojektet.dll
