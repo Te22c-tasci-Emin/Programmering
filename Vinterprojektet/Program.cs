@@ -37,8 +37,9 @@ void start()
 
     if (player1 == "1")
     {
-        
+        Console.WriteLine("Welcome to Taken7");
     }
+
 
     Console.ReadLine();
 
