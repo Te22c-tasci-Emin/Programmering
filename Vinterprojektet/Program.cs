@@ -27,18 +27,27 @@ start();
 void start()
 {
 
+
     //ska lägga till option att vara player 1 eller 2
 
     Console.WriteLine ("choose your character");
 
     Console.WriteLine ("Player 1");
 
-    Console.WriteLine ("Player 2");
+     Console.WriteLine ("Player 2");
+
+     player1 = Console.ReadLine(); //denna ska göra så att den ändrar värde.
 
     if (player1 == "1")
     {
         Console.WriteLine("Welcome to Taken7");
     }
+
+
+ else if (player2 == "2")
+ {
+   Console.WriteLine ("Welcome to Taken7");
+ }
 
 
     Console.ReadLine();
@@ -56,7 +65,7 @@ void start()
 
 weaponsdmg = weaponsdmg.ToLower();
 
-    if (weaponsdmg == "a)")
+    if (weaponsdmg == "a)") //player 1 
     {
 
       kazuyaWeaponDamage = 45;
@@ -79,6 +88,20 @@ weaponsdmg = weaponsdmg.ToLower();
     }
     Console.ReadLine();
 }
+
+
+//player 2     
+if (weaponsdmg2 == "a)")
+{
+
+}
+
+else if(weaponsdmg2 == "b)")
+{
+
+}
+
+else if (weaponsdmg2 == "c)")
 
 
 while (kazuyaHp > 0 && heihatchiHp > 0)
