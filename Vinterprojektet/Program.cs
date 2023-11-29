@@ -90,18 +90,18 @@ weaponsdmg = weaponsdmg.ToLower();
 }
 
 
-//player 2     
-if (weaponsdmg2 == "a)")
-{
+// //player 2     
+// if (weaponsdmg2 == "a)")
+// {
 
-}
+// }
 
-else if(weaponsdmg2 == "b)")
-{
+// else if(weaponsdmg2 == "b)")
+// {
 
-}
+// }
 
-else if (weaponsdmg2 == "c)")
+// else if (weaponsdmg2 == "c)")
 
 
 while (kazuyaHp > 0 && heihatchiHp > 0)
@@ -217,8 +217,21 @@ else
 }
 
 
+Console.ReadLine();
 
 
+Console.Clear();
 
+string s = "GG";
+Console.SetCursorPosition((Console.WindowWidth - s.Length) / 2, Console.CursorTop);
+Console.WriteLine(s);
+Console.WriteLine(@"
+░██████╗░░██████╗░
+██╔════╝░██╔════╝░
+██║░░██╗░██║░░██╗░
+██║░░╚██╗██║░░╚██╗
+╚██████╔╝╚██████╔╝
+░╚═════╝░░╚═════╝░");
 
 Console.ReadLine();
+
