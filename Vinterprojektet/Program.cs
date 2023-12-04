@@ -225,13 +225,6 @@ Console.Clear();
 string s = "GG";
 Console.SetCursorPosition((Console.WindowWidth - s.Length) / 2, Console.CursorTop);
 Console.WriteLine(s);
-Console.WriteLine(@"
-░██████╗░░██████╗░
-██╔════╝░██╔════╝░
-██║░░██╗░██║░░██╗░
-██║░░╚██╗██║░░╚██╗
-╚██████╔╝╚██████╔╝
-░╚═════╝░░╚═════╝░");
 
 Console.ReadLine();
-
+Console.ReadLine();
