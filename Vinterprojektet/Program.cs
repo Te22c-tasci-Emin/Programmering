@@ -22,6 +22,11 @@ int heihatchiAccuracy = 100;
 int heihatchiWeaponDamage = 30;
 
 Random generator = new Random();
+
+shop();
+Console.ReadLine();
+
+
 start();
 
 void start()
@@ -30,13 +35,18 @@ void start()
 
     //ska lägga till option att vara player 1 eller 2
 
-    Console.WriteLine ("choose your character");
+    Console.WriteLine("choose your character");
 
-    Console.WriteLine ("Player 1");
+    Console.WriteLine("Player 1");
 
-     Console.WriteLine ("Player 2");
+    Console.WriteLine("Player 2");
 
-     player1 = Console.ReadLine(); //denna ska göra så att den ändrar värde.
+    while (player1 != "1" && player1 != "2")
+    {
+        player1 = Console.ReadLine(); //denna ska göra så att den ändrar värde.
+
+       
+    }
 
     if (player1 == "1")
     {
@@ -44,10 +54,12 @@ void start()
     }
 
 
- else if (player2 == "2")
- {
-   Console.WriteLine ("Welcome to Taken7");
- }
+    else if (player2 == "2")
+    {
+        Console.WriteLine("Welcome to Taken7");
+    }
+
+
 
 
     Console.ReadLine();
@@ -63,27 +75,27 @@ void start()
     // Om man inte valt, accuracy = 80
 
 
-weaponsdmg = weaponsdmg.ToLower();
+    weaponsdmg = weaponsdmg.ToLower();
 
     if (weaponsdmg == "a)") //player 1 
     {
 
-      kazuyaWeaponDamage = 45;
-      kazuyaAccuracy = 70;
+        kazuyaWeaponDamage = 45;
+        kazuyaAccuracy = 70;
 
     }
 
-      else if (weaponsdmg == "b)")
-     {
-         kazuyaWeaponDamage = 30;
+    else if (weaponsdmg == "b)")
+    {
+        kazuyaWeaponDamage = 30;
         kazuyaAccuracy = 15;
 
-     }
+    }
 
-     else if (weaponsdmg == "c)")
-     {
-     kazuyaAccuracy = 20;
-     kazuyaWeaponDamage = 90;
+    else if (weaponsdmg == "c)")
+    {
+        kazuyaAccuracy = 20;
+        kazuyaWeaponDamage = 90;
 
     }
     Console.ReadLine();
@@ -131,10 +143,10 @@ while (kazuyaHp > 0 && heihatchiHp > 0)
      F   | ' ___  ',._   .  /   '. \
      F   (.'`|| (-._\ '.  \-      '-\
      \ .-'  ( L `._ '\ '._ (
-snd  /'  |  /  '-._\      ''\
+     /'  |  /  '-._\      ''\
          `-'        <---- Demonen Kazuya");
-    Console.WriteLine($"Demonen {kazuyaName} har nu {kazuyaHp} hp" );
-    
+    Console.WriteLine($"Demonen {kazuyaName} har nu {kazuyaHp} hp");
+
 
     int doesheyahit = generator.Next(100);
     if (doesheyahit < kazuyaAccuracy)
@@ -228,3 +240,35 @@ Console.WriteLine(s);
 
 Console.ReadLine();
 Console.ReadLine();
+
+
+
+void shop()
+{
+    System.Console.WriteLine(@"
+ __________________________________________________________________________
+|: : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : |
+| : : : : : : : : : : : : : : : :_________________________: : : : : : : : :|
+|: : : : : : : : : : : : : : : _)                         (_ : : : : : : : |
+| : : : : : : : : : : : : : : )_ :  Club 40 Gift Shoppe :  _( : : : : : : :|
+|: : Elevator  : : : :__________)_________________________(__________  : : |
+| _____________ : _ :/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\: _ :|
+||  _________  | /_\ '.Z.'.Z.'.Z.'.Z.'.Z.'.Z.'.Z.'.Z.'.Z.'.Z.'.Z.'.Z.' /_\ |
+|| |    |    | |:=|=: |Flowers * Perfumes_________Lingerie * Candles| :=|=:|
+|| |    |    | | : : :|   ______    _  .'         '.  _    ______   |: : : |
+|| |    |    | |======| .' ,|,  '. /_\ |           | /_\ .'  ,|, '. |======|
+|| |    |    |:|Lounge| | ;;;;;  | =|= |           | =|= |  ;;;;; | |Casino|
+|| |    |    | |<---  | |_';;;'_n|     |  n______  |     |$_';;;'_| |  --->|
+|| |    |    | |      | |_|-;-|__|     |-|_______|-|     |__|-;-|_| |      |
+|| |    |    | |      | |________|     |           |     |________| |      |
+|| |    |    | |      |                |           |                |      |
+lc_|____|____|_|______|________________|           |________________|______|
+");
+
+if(heihatchiHp == 0 || kazuyaHp == 0)
+
+{
+    ()
+}
+
+}
