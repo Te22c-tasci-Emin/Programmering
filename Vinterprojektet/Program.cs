@@ -23,8 +23,7 @@ int heihatchiWeaponDamage = 30;
 
 Random generator = new Random();
 
-shop();
-Console.ReadLine();
+
 
 
 start();
@@ -45,7 +44,7 @@ void start()
     {
         player1 = Console.ReadLine(); //denna ska göra så att den ändrar värde.
 
-       
+
     }
 
     if (player1 == "1")
@@ -238,6 +237,9 @@ string s = "GG";
 Console.SetCursorPosition((Console.WindowWidth - s.Length) / 2, Console.CursorTop);
 Console.WriteLine(s);
 
+shop();
+Console.ReadLine();
+
 Console.ReadLine();
 Console.ReadLine();
 
@@ -265,10 +267,24 @@ void shop()
 lc_|____|____|_|______|________________|           |________________|______|
 ");
 
-if(heihatchiHp == 0 || kazuyaHp == 0)
+    if (heihatchiHp <= 0 || kazuyaHp <= 0)
 
-{
-    ()
-}
+    {
+        int initialCoins = 0;
+        int coinsEarned = calculateCoinsEarned();
+        int totalCoins = initialCoins + coinsEarned;
 
+        Console.WriteLine($"You earned {coinsEarned} coins in this round.");
+        Console.WriteLine($"Total coins: {totalCoins}");
+
+        static int calculateCoinsEarned()
+        {
+
+            // Random generator = new Random ();
+            int coinsEarned = Random.Shared.Next(1, 101);
+            return coinsEarned;
+        }
+        Console.ReadLine();
+    }
+//behöver fixa casino så man kan gamba :thumbsup:
 }
