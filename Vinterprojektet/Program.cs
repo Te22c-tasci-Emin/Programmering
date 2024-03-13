@@ -13,6 +13,7 @@ String heihatchiName = "heihatchi";
 string player1 = "player12";
 string player2 = "player21";
 
+string casino = "casino";
 
 int kazuyaAccuracy = 100;
 int kazuyaWeaponDamage = 30;
@@ -285,6 +286,34 @@ lc_|____|____|_|______|________________|           |________________|______|
             return coinsEarned;
         }
         Console.ReadLine();
+
+        Console.WriteLine("There is a secret lurking.....");
+
+        if (casino.ToLower() == "casino")
+        {
+            int cardsDealt = 0;
+            Console.Clear();
+            Casino(totalCoins);
+        }
+
     }
+}
 //behöver fixa casino så man kan gamba :thumbsup:
+//if player type Casino then take them to black jack table and gamba
+
+
+static int Casino(int money)
+{
+    Console.WriteLine("YOU CHOOSE TO HIT OR RUN");
+    string cardsHit = Console.ReadLine();
+
+   
+    if (cardsHit == "Hit")
+    {
+     int cardsDealt = Random.Shared.Next(1, 14);
+     Console.WriteLine( $"Well well well... You earned {cardsDealt} well well");
+    
+    }
+
+    return money;
 }
