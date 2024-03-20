@@ -3,6 +3,10 @@ int kazuyaHp = 100;
 
 int heihatchiHp = 100;
 
+kazuyaHp = 00;
+
+heihatchiHp = 00;
+
 int weaponedmg = 100;
 
 string weaponsdmg = "WDamgage";
@@ -13,6 +17,7 @@ String heihatchiName = "heihatchi";
 string player1 = "player12";
 string player2 = "player21";
 
+string spade = "spade";
 string casino = "casino";
 
 int kazuyaAccuracy = 100;
@@ -278,16 +283,12 @@ lc_|____|____|_|______|________________|           |________________|______|
         Console.WriteLine($"You earned {coinsEarned} coins in this round.");
         Console.WriteLine($"Total coins: {totalCoins}");
 
-        static int calculateCoinsEarned()
-        {
 
-            // Random generator = new Random ();
-            int coinsEarned = Random.Shared.Next(1, 101);
-            return coinsEarned;
-        }
         Console.ReadLine();
 
         Console.WriteLine("There is a secret lurking.....");
+
+        casin
 
         if (casino.ToLower() == "casino")
         {
@@ -307,13 +308,30 @@ static int Casino(int money)
     Console.WriteLine("YOU CHOOSE TO HIT OR RUN");
     string cardsHit = Console.ReadLine();
 
-   
+
     if (cardsHit == "Hit")
     {
-     int cardsDealt = Random.Shared.Next(1, 14);
-     Console.WriteLine( $"Well well well... You earned {cardsDealt} well well");
-    
+        int cardsDealt = Random.Shared.Next(1, 11);
+        Console.WriteLine($"Well well well... You earned {cardsDealt} well well");
+
     }
 
     return money;
+}
+
+
+static int calculateCoinsEarned()
+{
+
+    // Random generator = new Random ();
+    int coinsEarned = Random.Shared.Next(1, 101);
+    return coinsEarned;
+}
+
+
+bool spade = false; 
+
+if (hit = 11)
+{
+    spade = true;
 }
