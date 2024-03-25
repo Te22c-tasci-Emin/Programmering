@@ -288,7 +288,7 @@ lc_|____|____|_|______|________________|           |________________|______|
 
         Console.WriteLine("There is a secret lurking.....");
 
-        casin
+        //casin
 
         if (casino.ToLower() == "casino")
         {
@@ -329,9 +329,12 @@ static int calculateCoinsEarned()
 }
 
 
-bool spade = false; 
+//bool spade = false; 
 
-if (hit = 11)
-{
-    spade = true;
-}
+//if (hit = 11)
+//{
+ //   spade = true;
+//}
+
+//måste fixa så att det inte blir en shikane utan det blir en straight.
+//om man rullar en spade så får man fortfarande option/möjlighet att köra igen för hit eller skip
