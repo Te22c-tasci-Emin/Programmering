@@ -3,9 +3,9 @@ int kazuyaHp = 100;
 
 int heihatchiHp = 100;
 
-kazuyaHp = 00;
+kazuyaHp = 100;
 
-heihatchiHp = 00;
+heihatchiHp = 100;
 
 int weaponedmg = 100;
 
@@ -121,7 +121,7 @@ void start()
 // else if (weaponsdmg2 == "c)")
 
 
-while (kazuyaHp > 0 && heihatchiHp > 0)
+while (kazuyaHp > 0 && heihatchiHp > 0) //om kazuyas hp är över 0 så spelas skripten under
 {
     Console.WriteLine("--------------- Ny Runda ----------------------");
     Console.WriteLine(@"         |    |              _.-7
@@ -153,19 +153,19 @@ while (kazuyaHp > 0 && heihatchiHp > 0)
     Console.WriteLine($"Demonen {kazuyaName} har nu {kazuyaHp} hp");
 
 
-    int doesheyahit = generator.Next(100);
-    if (doesheyahit < kazuyaAccuracy)
+    int doesheyahit = generator.Next(100);  //hans accuracy/bådas accuracy
+    if (doesheyahit < kazuyaAccuracy) // accuracy större änhit
     {
-        int heihatchidamage = generator.Next(kazuyaWeaponDamage);
-        kazuyaHp -= heihatchidamage;
-        kazuyaHp = Math.Max(0, kazuyaHp);
-        Console.WriteLine($"{heihatchiName} Slår och gör {heihatchidamage} damage gjord, nya hp = {kazuyaHp}");
+        int heihatchidamage = generator.Next(kazuyaWeaponDamage); //beroende på vapnet så gör man olika mycket dmg och olika mycket accuracy 
+        kazuyaHp -= heihatchidamage; //när kazuya tar dmg från heihatchi dra av hp från kazuya
+        kazuyaHp = Math.Max(0, kazuyaHp); // returnar största värde av antingen 0 eller kazuya hp
+        Console.WriteLine($"{heihatchiName} Slår och gör {heihatchidamage} damage gjord, nya hp = {kazuyaHp}"); 
     }
     else
     {
         Console.WriteLine($"{heihatchiName} Slår och gör Missed AHHAHAHAHAHAH");
     }
-    int doesKuzuaHit = generator.Next(100);
+    int doesKuzuaHit = generator.Next(100); //detta är samma som koden ovanför
     if (doesKuzuaHit < kazuyaAccuracy)
     {
         int kazuyadamage = generator.Next(kazuyaWeaponDamage);
@@ -273,28 +273,29 @@ void shop()
 lc_|____|____|_|______|________________|           |________________|______|
 ");
 
-    if (heihatchiHp <= 0 || kazuyaHp <= 0)
+    if (heihatchiHp <= 0 || kazuyaHp <= 0) //om heihatchi hp är mindre eller lika med 0 (det betyder att han kan ta dmg och gå -10 även då kommer scripten fungera) //detsamma gäller för kazuya
 
     {
-        int initialCoins = 0;
-        int coinsEarned = calculateCoinsEarned();
-        int totalCoins = initialCoins + coinsEarned;
+        int initialCoins = 0; //pengar man börjar med = 0
+        int coinsEarned = calculateCoinsEarned(); //pengar man tjänar ska plussas på
+        int totalCoins = initialCoins + coinsEarned; //totala pengar 
 
-        Console.WriteLine($"You earned {coinsEarned} coins in this round.");
-        Console.WriteLine($"Total coins: {totalCoins}");
+        Console.WriteLine($"You earned {coinsEarned} coins in this round."); //den skriver hur mycket pengar man tjänat under denna runda
+        Console.WriteLine($"Total coins: {totalCoins}"); //totala ammount
 
 
         Console.ReadLine();
 
-        Console.WriteLine("There is a secret lurking.....");
+        Console.WriteLine("There is a secret lurking....."); //hidden message
 
         //casin
 
-        if (casino.ToLower() == "casino")
+        if (casino.ToLower() == "casino") //om man skriver casino oavsett om man skriver 
         {
-            int cardsDealt = 0;
-            Console.Clear();
-            Casino(totalCoins);
+            int cardsDealt = 0; //börjar slänga kort från noll. så början är noll
+            Console.Clear(); //tömmer skärmen
+            Casino(totalCoins); //skriver totala 
+
         }
 
     }
@@ -305,18 +306,18 @@ lc_|____|____|_|______|________________|           |________________|______|
 
 static int Casino(int money)
 {
-    Console.WriteLine("YOU CHOOSE TO HIT OR RUN");
-    string cardsHit = Console.ReadLine();
+    Console.WriteLine("YOU CHOOSE TO HIT OR RUN"); //skriver om 
+    string cardsHit = Console.ReadLine(); //skriver hur mycket man hittat
 
 
-    if (cardsHit == "Hit")
+    if (cardsHit == "Hit") //om man skriver hit
     {
-        int cardsDealt = Random.Shared.Next(1, 11);
-        Console.WriteLine($"Well well well... You earned {cardsDealt} well well");
+        int cardsDealt = Random.Shared.Next(1, 11); //kort(kan dra mellan 1 till 11)
+        Console.WriteLine($"Well well well... You earned {cardsDealt} well well"); //siffran man dragit
 
     }
 
-    return money;
+    return money; //money earned eller lost
 }
 
 
