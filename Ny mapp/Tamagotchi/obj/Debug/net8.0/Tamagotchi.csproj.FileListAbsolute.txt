@@ -1,0 +1,15 @@
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\bin\Debug\net8.0\Tamagotchi.exe
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\bin\Debug\net8.0\Tamagotchi.deps.json
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\bin\Debug\net8.0\Tamagotchi.runtimeconfig.json
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\bin\Debug\net8.0\Tamagotchi.dll
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\bin\Debug\net8.0\Tamagotchi.pdb
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\obj\Debug\net8.0\Tamagotchi.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\obj\Debug\net8.0\Tamagotchi.AssemblyInfoInputs.cache
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\obj\Debug\net8.0\Tamagotchi.AssemblyInfo.cs
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\obj\Debug\net8.0\Tamagotchi.csproj.CoreCompileInputs.cache
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\obj\Debug\net8.0\Tamagotchi.sourcelink.json
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\obj\Debug\net8.0\Tamagotchi.dll
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\obj\Debug\net8.0\refint\Tamagotchi.dll
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\obj\Debug\net8.0\Tamagotchi.pdb
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\obj\Debug\net8.0\Tamagotchi.genruntimeconfig.cache
+c:\Users\emin.tasci\Documents\Programmering\Ny mapp\Tamagotchi\obj\Debug\net8.0\ref\Tamagotchi.dll
