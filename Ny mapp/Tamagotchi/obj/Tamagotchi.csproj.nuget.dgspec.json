@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emin.tasci\\Documents\\Programmering\\Ny mapp\\Tamagotchi\\Tamagotchi.csproj": {}
+    "c:\\Users\\emin.tasci\\Documents\\Programmering\\Ny mapp\\Tamagotchi\\Tamagotchi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emin.tasci\\Documents\\Programmering\\Ny mapp\\Tamagotchi\\Tamagotchi.csproj": {
+    "c:\\Users\\emin.tasci\\Documents\\Programmering\\Ny mapp\\Tamagotchi\\Tamagotchi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emin.tasci\\Documents\\Programmering\\Ny mapp\\Tamagotchi\\Tamagotchi.csproj",
+        "projectUniqueName": "c:\\Users\\emin.tasci\\Documents\\Programmering\\Ny mapp\\Tamagotchi\\Tamagotchi.csproj",
         "projectName": "Tamagotchi",
-        "projectPath": "C:\\Users\\emin.tasci\\Documents\\Programmering\\Ny mapp\\Tamagotchi\\Tamagotchi.csproj",
+        "projectPath": "c:\\Users\\emin.tasci\\Documents\\Programmering\\Ny mapp\\Tamagotchi\\Tamagotchi.csproj",
         "packagesPath": "C:\\Users\\emin.tasci\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emin.tasci\\Documents\\Programmering\\Ny mapp\\Tamagotchi\\obj\\",
+        "outputPath": "c:\\Users\\emin.tasci\\Documents\\Programmering\\Ny mapp\\Tamagotchi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
